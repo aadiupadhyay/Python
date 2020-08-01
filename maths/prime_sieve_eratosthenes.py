@@ -32,8 +32,8 @@ def prime_sieve_eratosthenes(num):
             for i in range(p * p, num + 1, p):
                 primes[i] = False
         p += 1
-
-    for prime in range(2, num + 1):
+    print(2)
+    for prime in range(3, num + 1,2):
         if primes[prime]:
             print(prime, end=" ")
 
